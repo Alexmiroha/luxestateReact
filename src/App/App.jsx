@@ -1,25 +1,10 @@
 import React from 'react';
+import {Header} from "./HeaderComponent/Header";
 
 export const App = () => {
     return (
         <div>
-            <header className="header">
-                <nav>
-                    <input type="checkbox" id="checkbox-menu"/>
-                    <label htmlFor="checkbox-menu">
-                        <ul className="menu touch">
-                            <li><a href="#" className="logo">luxestate</a></li>
-                            <li className="about"><a href="#stats">About</a></li>
-                            <li><a href="#Apartments">Apartments</a></li>
-                            <li><a href="#HIW">How It Work</a></li>
-                            <li><a href="#Agents">Agents</a></li>
-                            <li className="contact"><a href="#Contact_popup" className="popup-link">Contact Us</a></li>
-                            <li><a href="#" className="popup-link">Join Us</a></li>
-                        </ul>
-                        <span className="toggle">☰</span>
-                    </label>
-                </nav>
-            </header>
+            <Header />
             <main>
                 <section className="intro wrapper" id="home">
                     <div className="intro-img">

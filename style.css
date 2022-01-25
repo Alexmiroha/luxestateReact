@@ -31,62 +31,6 @@ html.lock {
     overflow-y: hidden;
 }
 
-nav {
-    margin: 0 auto;
-    max-width: 1120px;
-    width: 100%;
-}
-
-#checkbox-menu,
-.toggle {
-    display: none;
-}
-
-.header {
-    margin-top: 10px;
-}
-
-.menu {
-    padding: 0;
-    margin: 0;
-    height: 50px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    list-style-type: none;
-}
-
-.menu li a {
-    padding: 15px 20px;
-    text-decoration: none;
-    align-self: center;
-    font-size: 16px;
-    font-weight: 600;
-    transition: background .2s linear;
-    color: var(--second-main-color);
-}
-
-.menu li:hover a {
-    background: var(--first-main-color);
-    border-radius: 3px;
-}
-
-.menu li a.logo {
-    font-size: 25px;
-    letter-spacing: 5px;
-
-}
-
-.menu li.about {
-    margin-left: 40px;
-}
-
-.menu li.contact {
-    margin-left: 70px;
-}
-
-
 .wrapper {
     margin: 0 auto;
     max-width: 1100px;
@@ -1101,19 +1045,6 @@ hr {
 
 
 /*@media screen and (max-width: 1118px) {*/
-
-
-/*    .menu li a {*/
-/*        padding: 10px 15px;*/
-/*    }*/
-
-/*    .menu li a.logo {*/
-/*        margin-right: 50px;*/
-/*    }*/
-
-/*    .menu li a.contact {*/
-/*        margin-right: 25px;*/
-/*    }*/
 
 /*    .intro .search-button {*/
 /*        right: 43%;*/
