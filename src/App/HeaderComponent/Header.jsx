@@ -9,7 +9,7 @@ export const Header = () => {
 
     console.log(menuActive)
     return (
-        <header className={s.header}>
+        <header className={s.header} id='header'>
             <nav>
                 <ul id='menu' className={menuActive ? `${s.menu} ${s.active}` : `${s.menu} ${s.touch}`}>
                         <li><a href="#" className={s.logo}>luxestate</a></li>

@@ -1,0 +1,122 @@
+.intro {
+    margin-top: 25px;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    height: 90vh;
+    min-height: 700px;
+    max-height: 900px;
+}
+
+.intro_img {
+    background-image: url(./src/img/room.jpg);
+    width: 930px;
+    height: 640px;
+    position: relative;
+    left: 133px;
+    top: -15px;
+
+}
+
+.intro .intro_text {
+    position: relative;
+    font-size: 50px;
+    font-weight: bolder;
+
+    right: 180px;
+    top: 90px;
+
+}
+
+.intro_img p {
+    backdrop-filter: blur(3px);
+    max-width: 630px;
+}
+
+
+/*search_button***search_button***search_button****/
+.search_button input[type=text] {
+    margin-top: 0;
+    width: 300px;
+    height: 70px;
+    border: none;
+    background-image: url(./src/img/search.png);
+    background-repeat: no-repeat;
+    background-position: 27px;
+    outline: none;
+    padding-left: 62px;
+    font-size: 15px;
+    color: var(--second-main-color);
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+
+}
+
+input[type="text"]::-webkit-input-placeholder {
+    color: var(--second-main-color);
+    opacity: 0.6;
+}
+
+/*Safari & Chrome*/
+input[type="text"]::-moz-placeholder {
+    color: var(--second-main-color);
+    opacity: 0.6;
+}
+
+/*Firefox*/
+
+
+.search_button input[type=submit] {
+    width: 147px;
+    border: none;
+    height: 70px;
+    background: var(--first-main-color);
+    font-size: var(--button-fs);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: var(--second-main-color);
+    outline: none;
+    cursor: pointer;
+}
+
+.search_button input[type=submit]:hover {
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
+}
+
+.intro .search_button {
+    position: absolute;
+    top: 350px;
+    right: 585px;
+}
+
+.intro_contacts {
+    background-color: var(--first-main-color);
+    max-width: 700px;
+    max-height: 200px;
+    position: absolute;
+    right: -68px;
+    top: 542px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+}
+
+.intro_icon {
+    color: #fff;
+    margin-right: 30px;
+
+}
+
+.intro_contacts p {
+    font-size: var(--button-fs);
+    margin-right: 60px;
+
+}
+
+.scrollWrapper {
+    position: absolute;
+    bottom: 200px;
+    left: 0;
+    transform: rotate(90deg);
+}

@@ -11,8 +11,9 @@ export const App = () => {
             <Header />
             <Main />
             <Footer />
-
-            <ScrollButton scroll={() => {scroll.scrollToTop()}}/>
+                <div className='ScrollTop'>
+                    <ScrollButton name='Go Top' class='scroll_button' link='header'/>
+                </div>
         </div>
     )
 }
