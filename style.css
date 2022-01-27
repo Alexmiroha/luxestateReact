@@ -41,17 +41,11 @@ html.lock {
 
 .ScrollTop {
     position: fixed;
-    bottom: 40px;
-    left: 90%;
+    bottom: 150px;
+    left: 85%;
     right: 0;
     margin: 0 auto;
     transform: rotate(270deg);
-    background: rgba(255, 255, 255, 0.3);
-    border-radius: 10px;
-}
-
-.scroll_button p {
-    transform: rotate(180deg);
 }
 
 
@@ -386,7 +380,7 @@ html.lock {
 
 
 .agents {
-    background: #f6f5f4;
+    background: #f6f5f44a;
     padding-top: 60px;
     margin-top: 30px;
 }

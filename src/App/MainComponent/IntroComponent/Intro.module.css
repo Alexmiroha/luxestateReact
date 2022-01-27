@@ -85,8 +85,9 @@ input[type="text"]::-moz-placeholder {
 }
 
 .intro .search_button {
+    box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.15);
     position: absolute;
-    top: 350px;
+    top: 315px;
     right: 585px;
 }
 
@@ -100,6 +101,7 @@ input[type="text"]::-moz-placeholder {
     display: flex;
     justify-content: space-between;
     padding: 30px 50px;
+    box-shadow: 0px 0px 25px 2px rgba(0, 0, 0, 0.5);
 }
 
 .intro_icon {
