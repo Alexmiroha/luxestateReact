@@ -1,6 +1,32 @@
-.arrow_1 {
-    padding: 55px 0 0 41px;
+.scroll_button {
+    margin: 0 auto;
+    text-decoration: none;
+    color: #1f373d;
+    cursor: pointer;
+    height: 40px;
+    width: 150px;
+    padding: 0px 0px 50px 150px;
+}
 
+.scroll_button p {
+    transform: rotate(180deg);
+    font-size: 12px;
+    text-align: center;
+    position: relative;
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 25px;
+    width: 90px;
+    padding: 15px 0px 15px 60px;
+}
+
+.scroll_button .arrow_1 {
+    position: relative;
+    transform: rotate(-90deg);
+    padding: 0;
+    max-width: 1px;
+    left: 110px;
+    bottom: 25px;
 }
 
 .arrow_1 span {
@@ -39,33 +65,20 @@
     }
 }
 
-.scroll_button p {
-    transform: rotate(180deg);
-    font-size: 12px;
-    text-align: center;
-    position: relative;
-    background: rgba(255, 255, 255, 0.3);
-    box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.15);
-    border-radius: 25px;
-    width: 90px;
-    padding: 15px 0px 15px 60px;
-}
+@media screen and (max-width: 695px) {
+    .scroll_button {
+        padding: 0;
+    }
 
-.scroll_button .arrow_1 {
-    position: relative;
-    transform: rotate(-90deg);
-    padding: 0;
-    max-width: 1px;
-    left: 110px;
-    bottom: 25px;
-}
-
-.scroll_button {
-    margin: 0 auto;
-    text-decoration: none;
-    color: #1f373d;
-    cursor: pointer;
-    height: 40px;
-    width: 150px;
-    padding: 0px 0px 50px 150px;
+    .scroll_button p {
+        display: none;
+    }
+    .scroll_button .arrow_1 {
+        left: 0px;
+        bottom: 0px;
+        background: rgba(255, 255, 255, 0.3);
+        box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.15);
+        border-radius: 10px;
+        padding: 25px 11px 30px 20px;
+    }
 }

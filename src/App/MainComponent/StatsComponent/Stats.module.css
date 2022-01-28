@@ -1,0 +1,145 @@
+.stats {
+    display: flex;
+
+}
+
+.stats_line {
+    display: flex;
+}
+
+.stats_text {
+    padding: 0;
+    max-width: 565px;
+}
+
+.stats_text h2 {
+    font-weight: bolder;
+    font-size: 40px;
+    margin-bottom: 55px;
+    margin-top: 20px;
+    max-width: 400px;
+}
+
+.stats_text p {
+    margin-top: 35px;
+    font-size: var(--paragraph-fs);
+    line-height: 20px;
+    padding-right: 63px;
+
+}
+
+.stats_info {
+    margin-top: 0;
+    margin-left: 50px;
+}
+
+.square {
+    width: 17vw;
+    height: 17vw;
+    max-width: 250px;
+    max-height: 250px;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.square:hover .backdrop {
+
+    background-color: white;
+    width: 250px;
+    height: 250px;
+    border: 0.5px solid rgba(211, 211, 211, 0.3);
+    color: var(--first-main-color);
+    -webkit-text-stroke: unset;
+    cursor: pointer;
+}
+
+.apartments_square {
+    background-image: url("./src/img/apartments.jpg");
+}
+
+.clients_square {
+    background-image: url("./src/img/clients.jpg");
+}
+
+.employees_square {
+    background-image: url("./src/img/employees.jpg");
+}
+
+.awards_square {
+    background-image: url("./src/img/Awards.jpg");
+}
+
+.backdrop {
+    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(2px) opacity(0.5);
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    width: 240px;
+    height: 240px;
+    color: var(--second-main-color);
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.5);
+}
+
+.backdrop span:first-child {
+    margin-top: 60px;
+}
+
+.backdrop span:last-child {
+    margin-bottom: 70px;
+}
+
+.stats_square {
+    font-size: 40px;
+
+    margin-bottom: 15px;
+    font-weight: 700;
+
+}
+
+.square_text {
+    font-size: 20px;
+    font-weight: 600;
+
+
+}
+
+@media screen and (max-width: 1118px) {
+    .stats {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .stats_text h2 {
+        font-size: 30px;
+        max-width: none;
+    }
+
+    .stats_text p {
+        padding: 0px 20px 0px 20px;
+    }
+}
+
+@media screen and (max-width: 695px) {
+    .stats_square {
+        font-size: 6vw;
+    }
+
+    .square_text {
+        font-size: 3vw;
+    }
+}
+
+@media screen and (max-width: 354px) {
+
+    .stats_line {
+        flex-direction: column;
+    }
+}

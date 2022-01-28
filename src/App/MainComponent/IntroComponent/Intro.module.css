@@ -118,7 +118,140 @@ input[type="text"]::-moz-placeholder {
 
 .scrollWrapper {
     position: absolute;
-    bottom: 200px;
+    bottom: 15%;
     left: 0;
     transform: rotate(90deg);
 }
+
+@media screen and (max-height: 730px) {
+    .intro .intro_text {
+        font-size: 7vh;
+        top: 15vh;
+    }
+
+    .intro .search_button {
+        transform: scale(0.8);
+        top: 45vh;
+    }
+
+    .intro_contacts {
+        top: 70vh;
+    }
+
+
+}
+
+@media screen and (max-width: 1118px) {
+    .intro .search_button {
+        right: 43%;
+    }
+
+    .intro .intro_text {
+        right: 7.5%;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .intro .search_button {
+        right: 180px;
+        min-width: 509px;
+    }
+}
+
+@media screen and (max-width: 695px) {
+    .intro {
+        margin-top: 0;
+        display: block;
+        max-width: 100%;
+        height: 90vh;
+
+
+    }
+
+    .intro_img {
+        top: 0px;
+        max-height: 90vh;
+        left: 0px;
+        background-position: bottom 0px right 0px;
+    }
+
+    .intro .intro_text {
+        font-size: 30px;
+        left: 20px;
+        width: 300px;
+        top: 1%;
+    }
+
+    .intro .search_button {
+        top: 50%;
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin: 0 auto;
+        left: 0;
+    }
+
+    .search_button input[type=text] {
+        width: 100%;
+        display: block;
+        font-size: 14px;
+        border-radius: 4px;
+        height: 40px;
+    }
+
+    .search_button input[type=submit] {
+        width: calc(100vw + 62px);
+        display: block;
+        border-radius: 4px;
+        margin-top: 10px;
+        height: 40px;
+        padding-right: 62px;
+    }
+
+    .intro_contacts {
+        padding: 20px;
+        right: -25px;
+    }
+
+    .intro_contacts p {
+        margin-right: 10px;
+    }
+
+    .intro_icon {
+        margin-right: 5px;
+    }
+
+    .scrollWrapper {
+        bottom: 27%;
+    }
+}
+
+@media screen and (max-width: 354px) {
+    .intro .intro_text {
+        font-size: 8.5vw;
+    }
+
+    .intro_contacts p {
+        font-size: 12px;
+    }
+}
+
+/*@media screen and (max-height: 730px) {*/
+
+/*}*/
+
+/*@media screen and (max-width: 1118px) {*/
+
+/*}*/
+
+/*@media screen and (max-width: 950px) {*/
+
+/*}*/
+
+/*@media screen and (max-width: 695px) {*/
+
+/*}*/
+
+/*@media screen and (max-width: 354px) {*/
+
+/*}*/
