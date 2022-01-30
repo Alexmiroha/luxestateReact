@@ -1,0 +1,143 @@
+.apart h2 {
+    margin-bottom: 80px;
+    margin-top: 110px;
+    font-size: 40px;
+    font-weight: bolder;
+
+}
+
+.card {
+    max-width: 350px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.card_info {
+    padding: 20px;
+}
+
+.priceitp {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+
+.priceitp .price {
+    font-size: 18px;
+    color: var(--first-main-color);
+}
+
+.info_card_icon {
+    margin-right: 15px;
+}
+
+.info_card span:first-child {
+    margin-right: 20px;
+}
+
+.card:hover {
+    /* анімація при наведенні*/
+    background: #fafaf9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* колонки*/
+    grid-template-rows: repeat(2, 1fr);
+    /* строки*/
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    /* одступи*/
+
+}
+
+.all_ap {
+    width: 250px;
+    height: 70px;
+    border: none;
+    border-radius: 4px;
+    margin-left: 40px;
+    margin-top: 0;
+    font-size: var(--button-fs);
+    transition: background .4s linear;
+    color: #1f373d;
+    cursor: pointer;
+}
+
+.all_ap:hover {
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
+    background: #9D2;
+}
+
+@media screen and (max-width: 1118px) {
+    .apart h2 {
+        text-align: center;
+        font-size: 30px;
+    }
+
+        .cards {
+            grid-column-gap: 1px;
+        }
+
+        .card {
+            max-width: 320px;
+            min-width: 320px;
+            overflow: hidden;
+        }
+
+
+        .card_info p {
+            max-width: 215px;
+        }
+
+
+        .info_card span:first-child {
+            margin-right: 5px;
+        }
+
+        .info_card span:last-child {
+            margin-right: 20px;
+        }
+}
+
+@media screen and (max-width: 950px) {
+    .cards {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: repeat(3, 1fr);
+                grid-row-gap: 15px;
+                justify-items: center;
+            }
+
+
+        /*    .apart .search-button {*/
+        /*        display: flex;*/
+        /*        justify-content: space-between;*/
+        /*    }*/
+
+
+        /*    .apart .search-button input[type=text] {*/
+
+        /*        width: 30vw;*/
+
+        /*    }*/
+
+            .all_ap {
+                width: 27vw;
+                margin-right: 30px;
+            }
+}
+
+@media screen and (max-width: 695px) {
+
+}
+
+@media screen and (max-width: 354px) {
+
+
+}
+
