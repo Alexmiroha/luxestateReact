@@ -1,6 +1,7 @@
 import React from 'react'
 import {ScrollButton} from "../../GlobalReusableComponents/ScrollButton";
 import s from './Intro.module.css'
+import {SearchButton} from "../../GlobalReusableComponents/SearchButton";
 
 export const Intro = () => {
     return (
@@ -10,12 +11,7 @@ export const Intro = () => {
                     Modern Apartment</p>
             </div>
             <div className={s.search_button}>
-                <form action="">
-                    <label>
-                        <input type="text" placeholder="Search Locations"/>
-                    </label>
-                    <input type="submit" value="search"/>
-                </form>
+                <SearchButton/>
             </div>
             <div className={s.intro_contacts}>
                 <p>

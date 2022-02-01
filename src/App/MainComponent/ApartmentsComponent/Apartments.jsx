@@ -1,5 +1,6 @@
 import React from 'react'
 import s from './Apartments.module.css'
+import {SearchButton} from "../../GlobalReusableComponents/SearchButton";
 
 export const Apartments = () => {
     return (
@@ -147,12 +148,7 @@ export const Apartments = () => {
                     </div>
                 </div>
                 <div className={s.search_button}>
-                    <form action="">
-                        <label>
-                            <input type="text" placeholder="Search Locations"/>
-                        </label>
-                        <input type="submit" value="search"/>
-                    </form>
+                    <SearchButton/>
                     <button className={s.all_ap}>View All Apartments</button>
                 </div>
             </div>
