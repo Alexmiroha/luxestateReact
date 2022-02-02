@@ -6,43 +6,6 @@
 
 }
 
-.card {
-    max-width: 350px;
-    background: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-
-}
-
-.card_info {
-    padding: 20px;
-}
-
-.priceitp {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 25px;
-}
-
-
-.priceitp .price {
-    font-size: 18px;
-    color: var(--first-main-color);
-}
-
-.info_card_icon {
-    margin-right: 15px;
-}
-
-.info_card span:first-child {
-    margin-right: 20px;
-}
-
-.card:hover {
-    /* анімація при наведенні*/
-    background: #fafaf9;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
-}
-
 .cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -51,7 +14,6 @@
     /* строки*/
     grid-column-gap: 30px;
     grid-row-gap: 30px;
-    /* одступи*/
 
 }
 
@@ -90,31 +52,10 @@
     .cards {
         grid-column-gap: 1px;
     }
-
-    .card {
-        max-width: 320px;
-        min-width: 320px;
-        overflow: hidden;
-    }
-
-
-    .card_info p {
-        max-width: 215px;
-    }
-
-
-    .info_card span:first-child {
-        margin-right: 5px;
-    }
-
-    .info_card span:last-child {
-        margin-right: 20px;
-    }
 }
 
 @media screen and (max-width: 950px) {
     .cards {
-        display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, 1fr);
         grid-row-gap: 15px;
@@ -142,6 +83,10 @@
  .all_ap {
      width: 79vw;
  }
+    .cards {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
 
 }
 
