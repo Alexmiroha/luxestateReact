@@ -55,57 +55,6 @@ html.lock {
 
 
 
-.serv_container {
-    display: flex;
-    margin-top: 60px;
-
-}
-
-
-.services img {
-    width: 110%;
-    height: auto;
-    position: relative;
-    left: -108px;
-}
-
-.serv-img {
-    width: 58%;
-    padding-right: 50px;
-
-
-}
-
-.serv-text {
-    width: 42%;
-    margin-left: 3%;
-}
-
-.serv-text p {
-    margin-bottom: 50px;
-
-}
-
-.services h2 {
-    font-size: 40px;
-    font-weight: bolder;
-    margin-top: 100px;
-    margin-bottom: 15px;
-}
-
-.serv-ttl {
-    font-size: var(--paragraph-fs);
-    line-height: 25px;
-
-}
-
-
-.services h4 {
-    font-size: 25px;
-    margin-bottom: 15px;
-    font-weight: bolder;
-}
-
 
 .agents {
     background: #f6f5f44a;

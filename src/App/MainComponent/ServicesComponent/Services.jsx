@@ -1,17 +1,18 @@
 import React from 'react'
+import s from './Services.module.css'
 
 export const Services = () => {
     return (
-        <section className="services wrapper">
+        <section className={`${s.services} wrapper`}>
             <h2>Services</h2>
-            <p className="serv_ttl">In this space market-facing, yet UI work flows , or bake it in. <br/> Red
+            <p className={s.serv_title}>In this space market-facing, yet UI work flows , or bake it in. <br/> Red
                 flag we need a
                 first agile at the end of the day. </p>
-            <div className="serv_container">
-                <div className="serv-img">
+            <div className={s.serv_container}>
+                <div className={s.serv_img}>
                     <img src="./src/img/serv.jpeg" alt=""/>
                 </div>
-                <div className="serv-text">
+                <div className={s.serv_text}>
                     <h4>Renting</h4>
                     <p>In this space market-facing, yet UI work flows , or bake it in. Red flag we need a recap
                         by eod, cob
