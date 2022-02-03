@@ -1,0 +1,105 @@
+.steps h2 {
+    margin-top: 130px;
+    font-size: 40px;
+    margin-bottom: 35px;
+    font-weight: bolder;
+}
+
+.steps_text {
+    line-height: 20px;
+    font-size: var(--paragraph-fs);
+    margin-bottom: 70px;
+}
+
+.steps_container {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.step_block {
+    min-width: 262px;
+    max-width: 340px;
+    height: 370px;
+    background: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.step_block .step_number {
+    font-size: 200px;
+    margin-top: -90px;
+    margin-left: -30px;
+    font-weight: 900;
+}
+
+
+.step_block:hover {
+    background: var(--first-main-color);
+    color: white;
+}
+
+
+.step_block h4 {
+    font-size: 18px;
+    margin-left: 40px;
+    margin-top: -8px;
+    margin-bottom: 30px;
+    font-weight: bolder;
+}
+
+.step_block h4 span {
+    margin-right: 15px;
+}
+
+.step_block .step_info {
+    font-size: 13px;
+    padding-right: 5px;
+    margin-left: 65px;
+    line-height: 20px;
+}
+
+.step_block .steplink {
+    font-size: 13px;
+    font-weight: bolder;
+    display: inline-block;
+    margin-left: 70px;
+    margin-top: 25px;
+    border-bottom: 3px solid var(--second-main-color);
+    padding-bottom: 7px;
+}
+
+.step_block:hover .steplink {
+    border-color: white;
+}
+
+@media screen and (max-width: 1118px) {
+    .steps h2 {
+        font-size: 30px;
+    }
+
+    .steps_text {
+        display: flex;
+        justify-content: center;
+        letter-spacing: 0.7px;
+        word-spacing: 7px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .steps_container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 695px) {
+    .steps_text {
+        letter-spacing: normal;
+        word-spacing: normal;
+        padding: 20px;
+    }
+}

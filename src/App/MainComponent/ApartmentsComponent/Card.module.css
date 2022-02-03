@@ -2,6 +2,7 @@
     max-width: 350px;
     background: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    min-height: 506px;
 
 }
 
@@ -54,5 +55,11 @@
 
     .info_card span:last-child {
         margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 695px) {
+    .card {
+        margin: 10px;
     }
 }

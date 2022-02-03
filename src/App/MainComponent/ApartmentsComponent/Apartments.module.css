@@ -80,12 +80,20 @@
 }
 
 @media screen and (max-width: 695px) {
+
+    .apart h2 {
+        margin-bottom: 30px;
+    }
+
  .all_ap {
      width: 79vw;
  }
     .cards {
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(3, 1fr);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-height: 520px;
+        overflow-y: auto;
     }
 
 }
