@@ -1,0 +1,64 @@
+.agent_block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.agent_card {
+    min-width: 344px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3)
+}
+
+.agent_card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8)
+}
+
+.agent_name {
+    color: #ffcc01;
+}
+
+.agent_info {
+    padding: 5px 0 10px 25px;
+}
+
+.social {
+    position: relative;
+    top: -7px;
+}
+
+.social a {
+    text-decoration: none;
+    margin-right: 25px;
+}
+
+.social_icon {
+    color: #000;
+}
+
+.social_icon:hover {
+    color: #9D2;
+}
+
+@media screen and (max-width: 1118px) {
+    .agent_card {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 354px) {
+
+    .agent_card {
+        min-width: 50px;
+    }
+
+
+    .agent_card img {
+        max-width: 100vw;
+    }
+
+
+    .social a {
+        margin-right: 5px;
+    }
+
+}

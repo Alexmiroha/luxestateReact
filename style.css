@@ -52,79 +52,6 @@ html.lock {
 
 
 
-
-
-
-
-.agents {
-    background: #f6f5f44a;
-    padding-top: 60px;
-    margin-top: 30px;
-}
-
-.agents h2 {
-    font-size: 40px;
-    margin-bottom: 20px;
-    font-weight: bolder;
-}
-
-.a-inf {
-    font-size: var(--paragraph-fs);
-    line-height: 25px;
-}
-
-.a-inf {
-    margin-bottom: 60px;
-}
-
-.agent-cards {
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 95px;
-}
-
-.agent-block {
-    display: flex;
-    justify-content: space-between;
-}
-
-.agent-card {
-    min-width: 344px;
-    background: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3)
-}
-
-.agent-card:hover {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8)
-}
-
-.agent-name {
-    color: #ffcc01;
-}
-
-.agent-info {
-    padding: 5px 0 10px 25px;
-}
-
-.social {
-    position: relative;
-    top: -7px;
-}
-
-.social a {
-    text-decoration: none;
-    margin-right: 25px;
-}
-
-.social_icon {
-    color: #000;
-}
-
-.social_icon:hover {
-    color: #9D2;
-}
-
-
 .add {
     padding-bottom: 100px;
     padding-top: 90px;
@@ -1094,24 +1021,6 @@ hr {
 
 /*    .wrapper h2 {*/
 /*        font-size: 25px;*/
-/*    }*/
-
-/*    .agents .a-inf {*/
-/*        padding: 20px;*/
-/*    }*/
-
-/*    .agent-card {*/
-/*        min-width: 50px;*/
-/*    }*/
-
-
-/*    .agent-card img {*/
-/*        max-width: 100vw;*/
-/*    }*/
-
-
-/*    .social a {*/
-/*        margin-right: 5px;*/
 /*    }*/
 
 /*    .add-line .location {*/
