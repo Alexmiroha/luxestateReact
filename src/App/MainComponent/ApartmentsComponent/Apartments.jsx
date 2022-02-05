@@ -17,7 +17,7 @@ export const Apartments = () => {
                     <Card/>
                 </div>
                 <div className={s.search_button}>
-                    <SearchButton/>
+                    <SearchButton placeholder='Search Locations' submitValue='search'/>
                     <button className={s.all_ap}>View All Apartments</button>
                 </div>
             </div>

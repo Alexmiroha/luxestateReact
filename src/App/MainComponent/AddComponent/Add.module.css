@@ -1,0 +1,152 @@
+.add {
+    padding-bottom: 100px;
+    padding-top: 90px;
+}
+
+.add_line {
+    display: flex;
+}
+
+.location {
+    font-size: 18px;
+    padding: 25px 55px 28px 55px;
+    background: #ffcc01;
+    display: inline-block;
+
+}
+
+.location_icon {
+    margin-right: 15px;
+    font-size: 25px;
+    position: relative;
+    top: 4px;
+    color: #fff;
+}
+
+.location_melbourn {
+    position: relative;
+
+    left: 110px;
+    bottom: 45px;
+}
+
+.location_australia {
+    position: relative;
+    left: 263px;
+    bottom: 55px;
+}
+
+.add_line h3 {
+    font-size: 25px;
+    margin-top: 75px;
+    margin-bottom: 40px;
+    margin-left: 130px;
+}
+
+.add_line p {
+    font-size: var(--paragraph-fs);
+    line-height: 25px;
+    margin-left: 125px;
+    width: 460px;
+}
+
+.add_line_right p {
+    margin-left: 0;
+    margin-right: 120px;
+    text-align: right;
+
+}
+
+.saat2 {
+    padding-left: 60px;
+
+}
+
+
+.lt3 {
+
+    margin-top: -50px;
+}
+
+
+.show_more {
+    position: relative;
+    top: -130px;
+    left: 535px;
+    font-size: var(--button-fs);
+    background: var(--first-main-color);
+    padding: 25px 70px 25px 55px;
+    display: inline-block;
+    margin-left: 130px;
+    color: #fff;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+
+.show_more:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
+}
+
+@media screen and (max-width: 1118px) {
+
+        .add {
+            padding-top: 0;
+        }
+
+        .add_line {
+            display: flex;
+            flex-flow: wrap;
+
+        }
+
+        .line_text, .line_img {
+            width: 100%;
+        }
+
+        .line_text {
+            order: 1;
+        }
+
+        .line_img {
+            order: 2;
+        }
+
+        .line_text h3 {
+            text-align: center;
+            margin: 40px 0 20px 0;
+            padding: 0;
+        }
+
+        .line_text p {
+            margin: 0 0 40px 10vw;
+            text-align: left;
+            width: 80vw;
+        }
+
+        .show_more {
+            display: block;
+            top: 20px;
+            left: 0;
+            margin: 0 auto;
+            width: 40%;
+            text-align: center;
+        }
+
+        .line_img .location {
+            display: block;
+            width: 100%;
+            left: 0;
+            padding: 12px 55px 17px;
+
+        }
+
+
+        .line_img img {
+            display: block;
+            width: 100%;
+        }
+
+
+}
+

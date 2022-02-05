@@ -48,6 +48,23 @@
     animation-delay: -0.4s;
 }
 
+@keyframes arrow_1 {
+    0% {
+        opacity: 0;
+        transform: rotate(45deg) translate(-15px, -15px);
+    }
+
+    50% {
+        opacity: 1;
+
+    }
+
+    100% {
+        opacity: 0;
+        transform: rotate(45deg) translate(15px, 15px);
+    }
+}
+
 /*____________________________________________________________________*/
 
 .search_button input[type=text] {
@@ -106,27 +123,6 @@ input[type="text"]::-moz-placeholder {
 
 
 /*____________________________________________________________________*/
-
-
-
-
-
-@keyframes arrow_1 {
-    0% {
-        opacity: 0;
-        transform: rotate(45deg) translate(-15px, -15px);
-    }
-
-    50% {
-        opacity: 1;
-
-    }
-
-    100% {
-        opacity: 0;
-        transform: rotate(45deg) translate(15px, 15px);
-    }
-}
 
 @media screen and (max-width: 695px) {
     .scroll_button {

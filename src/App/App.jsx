@@ -12,7 +12,7 @@ export const App = () => {
             <Main />
             <Footer />
                 <div className='ScrollTop'>
-                    <ScrollButton name='Go Top' class='scroll_button' link='header'/>
+                    <ScrollButton name='Go Top' className='scroll_button' link='header'/>
                 </div>
         </div>
     )

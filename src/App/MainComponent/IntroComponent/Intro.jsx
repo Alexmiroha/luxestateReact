@@ -11,7 +11,7 @@ export const Intro = () => {
                     Modern Apartment</p>
             </div>
             <div className={s.search_button}>
-                <SearchButton/>
+                <SearchButton placeholder='Search Locations' submitValue='search'/>
             </div>
             <div className={s.intro_contacts}>
                 <p>
