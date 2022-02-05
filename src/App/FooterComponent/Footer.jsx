@@ -8,8 +8,7 @@ export const Footer = () => {
             <div className="wrapper">
                 <div className={s.footer_block}>
                     <div className={s.footer_logo}>
-                        <h3>luxestate</h3>
-                        <h3>Explore Real Estate</h3>
+                        <h3>luxestate<br/>Explore Real Estate</h3>
                     </div>
                     <div className={s.footer_input}>
                         <SearchButton placeholder='Subscribe To Our Newsletter' submitValue='Subscribe'/>

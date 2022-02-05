@@ -2,6 +2,11 @@ import React from 'react';
 import s from "./AgentCard.module.css";
 
 const AgentCard = () => {
+
+    const changeEvent = event => {
+        event.preventDefault();
+    }
+
     return (
         <div className={s.agent_card}>
             <img src="./src/img/man.jpeg" alt=""/>
@@ -12,19 +17,19 @@ const AgentCard = () => {
                         Mr. Luke Skywalker
                     </p>
                     <div className={s.social}>
-                        <a href="">
+                        <a href="https://www.instagram.com/a1exm1roha_dev/" target="_blank">
                             <svg className={`${s.icon} ${s.social_icon}`} width="18" height="18">
-                                <use href="./src/img/sprite.svg#twitter-brands"></use>
+                                <use href="./src/img/sprite.svg#twitter-brands"/>
                             </svg>
                         </a>
-                        <a href="">
+                        <a href="https://www.instagram.com/a1exm1roha_dev/" target="_blank">
                             <svg className={`${s.icon} ${s.social_icon}`} width="18" height="18">
-                                <use href="./src/img/sprite.svg#facebook-brands"></use>
+                                <use href="./src/img/sprite.svg#facebook-brands"/>
                             </svg>
                         </a>
-                        <a href="">
+                        <a href="https://www.instagram.com/a1exm1roha_dev/" target="_blank">
                             <svg className={`${s.icon} ${s.social_icon}`} width="18" height="18">
-                                <use href="./src/img/sprite.svg#instagram-brands"></use>
+                                <use href="./src/img/sprite.svg#instagram-brands"/>
                             </svg>
                         </a>
                     </div>

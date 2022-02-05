@@ -99,7 +99,7 @@ input[type="text"]::-moz-placeholder {
 /*Firefox*/
 
 
-.search_button input[type=submit] {
+.search_button input[type=button] {
     width: 147px;
     border: none;
     height: 70px;
@@ -112,7 +112,7 @@ input[type="text"]::-moz-placeholder {
     cursor: pointer;
 }
 
-.search_button input[type=submit]:hover {
+.search_button input[type=button]:hover {
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
 }
 
@@ -151,7 +151,7 @@ input[type="text"]::-moz-placeholder {
         height: 40px;
     }
 
-    .search_button input[type=submit] {
+    .search_button input[type=button] {
         width: calc(70vw + 62px);
         display: block;
         border-radius: 4px;

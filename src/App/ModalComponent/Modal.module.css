@@ -1,0 +1,119 @@
+.modalBackDrop {
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-color: rgba(0,0,0,0.8);
+
+}
+
+.modal_window {
+    position: fixed;
+    z-index: 11;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    color: black;
+}
+
+.modal_body {
+    display: flex;
+    flex-direction: column;
+}
+
+.close_button {
+    width: 9px;
+    height: 17px;
+    padding: 5px 9px;
+    position: absolute;
+    right: 30px;
+    font-size: 15px;
+    text-decoration: none;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.05);
+    color: #99dd22;
+}
+
+.close_button:hover {
+    color: black;
+    background-color: rgba(255, 0, 0, 0.05);
+    border: 0.5px solid rgba(128, 128, 128, 0.11);
+}
+.modal_form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 25px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px;
+    margin: 0 auto;
+}
+.input {
+    height: 40px;
+    padding-left: 40px;
+    width: 400px;
+    border-color: rgba(31, 55, 61, 0.3);
+    border-radius: 4px;
+    outline-color: rgba(31, 55, 61, 0.3);
+}
+
+.input:focus {
+    background-color: rgba(255, 249, 235, 0.5);
+    outline-color: var(--first-main-color);
+    color: var(--second-main-color);
+    font-weight: 600;
+    transition: outline-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0s;
+}
+
+.input:focus + .icon {
+    color: var(--first-main-color);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0s;
+}
+
+.message {
+    overflow-y: auto;
+    resize: none;
+    height: 100px;
+    width: 440px;
+    border: 2px solid rgba(31, 55, 61, 0.3);
+    border-radius: 4px;
+    outline-color: rgba(31, 55, 61, 0.3);
+    font-size: 14px;
+    font-style: italic;
+}
+
+.message:focus {
+    background-color: rgba(255, 249, 235, 0.5);
+    outline-color: var(--first-main-color);
+    color: var(--second-main-color);
+    font-weight: 600;
+    transition: outline-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0s;
+}
+
+.icon {
+    position: absolute;
+    padding: 13px 13px;
+    left: 55px;
+}
+.phone {
+    transform: rotate(180deg);
+}
+
+.submit input[type=submit] {
+    font-size: 16px;
+    border-radius: 4px;
+    width: 444px;
+    height: 50px;
+    margin-top: 35px;
+    background: var(--first-main-color);
+    border: none;
+}
