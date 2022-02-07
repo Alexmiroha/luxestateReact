@@ -1,12 +1,16 @@
 import React from 'react';
 import s from './Modal.module.css'
 
-const Modal = () => {
+const Modal = ( { setModalOpen } ) => {
     return (
         <div className='modal'>
             <div className={s.modal_window} id="modal_window">
                 <div className={s.modal_body}>
-                    <a href="" className={s.close_button}>X</a>
+                    <div
+                        className={s.close_button}
+                    onClick={() => {setModalOpen(false)}}>
+                        X
+                    </div>
                     <form action="" className={s.modal_form}>
                         <div className={s.title}>
                             Send us a message
@@ -24,7 +28,7 @@ const Modal = () => {
                             <div className={s.field_name}>Phone</div>
                             <span className={s.modal_wrapper}>
                                     <input type="text" className={s.input} placeholder="Phone"/>
-                                    <svg className={`${s.icon} ${s.phone}`} icon_phone width="16" height="16">
+                                    <svg className={`${s.icon} ${s.phone}`} width="16" height="16">
                                         <use href="./src/img/sprite.svg#phone-solid"/>
                                     </svg>
                                 </span>

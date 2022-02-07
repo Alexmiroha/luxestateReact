@@ -37,6 +37,7 @@
     border-radius: 50px;
     background-color: rgba(0, 0, 0, 0.05);
     color: #99dd22;
+    cursor: pointer;
 }
 
 .close_button:hover {
