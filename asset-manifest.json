@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/luxestateReact/static/css/main.37409d05.css",
+    "main.js": "/luxestateReact/static/js/main.192d2c73.js",
+    "static/js/787.f4b9e84d.chunk.js": "/luxestateReact/static/js/787.f4b9e84d.chunk.js",
+    "static/media/room.jpg": "/luxestateReact/static/media/room.63378d7ae78c2ea0caff.jpg",
+    "static/media/serv.jpeg": "/luxestateReact/static/media/serv.091379fc67d4131e1f56.jpeg",
+    "static/media/addroom.jpeg": "/luxestateReact/static/media/addroom.707a702e8771497d00bc.jpeg",
+    "static/media/apart.jpeg": "/luxestateReact/static/media/apart.5b121abd5f2445f7e677.jpeg",
+    "static/media/man.jpeg": "/luxestateReact/static/media/man.19ada766ff2aafb4201e.jpeg",
+    "static/media/Awards.jpg": "/luxestateReact/static/media/Awards.26692025a602ca795163.jpg",
+    "static/media/apartments.jpg": "/luxestateReact/static/media/apartments.d68df0636f1023ed0b0c.jpg",
+    "static/media/employees.jpg": "/luxestateReact/static/media/employees.051bd49baa9c4e822cc2.jpg",
+    "static/media/clients.jpg": "/luxestateReact/static/media/clients.fc2071eaa33fce6f2609.jpg",
+    "static/media/sprite.svg": "/luxestateReact/static/media/sprite.d5739dbdd0ddcb403106f59f742abd27.svg",
+    "index.html": "/luxestateReact/index.html",
+    "main.37409d05.css.map": "/luxestateReact/static/css/main.37409d05.css.map",
+    "main.192d2c73.js.map": "/luxestateReact/static/js/main.192d2c73.js.map",
+    "787.f4b9e84d.chunk.js.map": "/luxestateReact/static/js/787.f4b9e84d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.37409d05.css",
+    "static/js/main.192d2c73.js"
+  ]
+}
