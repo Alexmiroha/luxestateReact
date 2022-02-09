@@ -1,5 +1,7 @@
 import React from 'react';
 import s from "./AgentCard.module.css";
+import image from '../../../img/man.jpeg'
+import sprite from '../../../img/sprite.svg'
 
 const AgentCard = () => {
 
@@ -9,7 +11,7 @@ const AgentCard = () => {
 
     return (
         <div className={s.agent_card}>
-            <img src="./src/img/man.jpeg" alt=""/>
+            <img src={image} alt=""/>
             <div className={s.agent_info}>
                 <p>Agent</p>
                 <div className={s.agent_block}>
@@ -19,17 +21,17 @@ const AgentCard = () => {
                     <div className={s.social}>
                         <a href="https://www.instagram.com/a1exm1roha_dev/" target="_blank">
                             <svg className={`${s.icon} ${s.social_icon}`} width="18" height="18">
-                                <use href="./src/img/sprite.svg#twitter-brands"/>
+                                <use href={`${sprite}#twitter-brands`}/>
                             </svg>
                         </a>
                         <a href="https://www.instagram.com/a1exm1roha_dev/" target="_blank">
                             <svg className={`${s.icon} ${s.social_icon}`} width="18" height="18">
-                                <use href="./src/img/sprite.svg#facebook-brands"/>
+                                <use href={`${sprite}#facebook-brands`}/>
                             </svg>
                         </a>
                         <a href="https://www.instagram.com/a1exm1roha_dev/" target="_blank">
                             <svg className={`${s.icon} ${s.social_icon}`} width="18" height="18">
-                                <use href="./src/img/sprite.svg#instagram-brands"/>
+                                <use href={`${sprite}#instagram-brands`}/>
                             </svg>
                         </a>
                     </div>

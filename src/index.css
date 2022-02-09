@@ -1,52 +1,52 @@
 :root {
-    --first-main-color: #ffcc01;
-    --second-main-color: #1f373d;
-    --button-fs: 18px;
-    --paragraph-fs: 16px;
+  --first-main-color: #ffcc01;
+  --second-main-color: #1f373d;
+  --button-fs: 18px;
+  --paragraph-fs: 16px;
 }
 
 * {
-    padding: 0;
-    margin: 0;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
 
 }
 
 html {
-    color: var(--second-main-color);
-    overflow-x: hidden;
+  color: var(--second-main-color);
+  overflow-x: hidden;
 }
 
 body {
-    color: var(--second-main-color);
-    overflow-x: hidden;
+  color: var(--second-main-color);
+  overflow-x: hidden;
 }
 
 body.lock {
-    overflow-y: hidden;
+  overflow-y: hidden;
 }
 
 html.lock {
-    overflow-y: hidden;
+  overflow-y: hidden;
 }
 
 .wrapper {
-    margin: 0 auto;
-    max-width: 1100px;
-    width: 100%;
-    min-height: 100%;
+  margin: 0 auto;
+  max-width: 1100px;
+  width: 100%;
+  min-height: 100%;
 
 }
 
 .ScrollTop {
-    position: fixed;
-    bottom: 150px;
-    left: 85%;
-    right: 0;
-    margin: 0 auto;
-    transform: rotate(270deg);
-    opacity: .5;
+  position: fixed;
+  bottom: 150px;
+  left: 85%;
+  right: 0;
+  margin: 0 auto;
+  transform: rotate(270deg);
+  opacity: .5;
 }
 
 
@@ -227,10 +227,10 @@ html.lock {
 
 
 @media screen and (max-width: 1118px) {
-    .wrapper h2 {
-        font-size: 30px;
-        display: grid;
-        justify-items: center;
-    }
+  .wrapper h2 {
+    font-size: 30px;
+    display: grid;
+    justify-items: center;
+  }
 
 }

@@ -1,5 +1,10 @@
 import React from 'react'
 import s from './Stats.module.css'
+import apartments from "../../img/apartments.jpg"
+import clients from "../../img/clients.jpg"
+import employees from "../../img/employees.jpg"
+import Awards from "../../img/Awards.jpg"
+
 
 export const Stats = () => {
     return (
@@ -23,13 +28,13 @@ export const Stats = () => {
             </div>
             <div className={s.stats_info}>
                 <div className={s.stats_line}>
-                    <div className={`${s.square} ${s.apartments_square}`}>
+                    <div style={{backgroundImage: `url(${apartments})`}} className={`${s.square} ${s.apartments_square}`}>
                         <div className={s.backdrop}>
                             <span className={s.stats_square}>748</span>
                             <span className={s.square_text}>Apartments</span>
                         </div>
                     </div>
-                    <div className={`${s.square} ${s.clients_square}`}>
+                    <div style={{backgroundImage: `url(${clients})`}} className={`${s.square} ${s.clients_square}`}>
                         <div className={s.backdrop}>
                             <span className={s.stats_square}>3854</span>
                             <span className={s.square_text}>Clients</span>
@@ -37,13 +42,13 @@ export const Stats = () => {
                     </div>
                 </div>
                 <div className={s.stats_line}>
-                    <div className={`${s.square} ${s.employees_square}`}>
+                    <div style={{backgroundImage: `url(${employees})`}} className={`${s.square} ${s.employees_square}`}>
                         <div className={s.backdrop}>
                             <span className={s.stats_square}>24</span>
                             <span className={s.square_text}>Employees</span>
                         </div>
                     </div>
-                    <div className={`${s.square} ${s.awards_square}`}>
+                    <div style={{backgroundImage: `url(${Awards})`}} className={`${s.square} ${s.awards_square}`}>
                         <div className={s.backdrop}>
                             <span className={s.stats_square}>14</span>
                             <span className={s.square_text}>Awards</span>

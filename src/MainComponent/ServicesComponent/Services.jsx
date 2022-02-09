@@ -1,5 +1,6 @@
 import React from 'react'
 import s from './Services.module.css'
+import image from '../../img/serv.jpeg'
 
 export const Services = () => {
     return (
@@ -10,7 +11,7 @@ export const Services = () => {
                 first agile at the end of the day. </p>
             <div className={s.serv_container}>
                 <div className={s.serv_img}>
-                    <img src="./src/img/serv.jpeg" alt=""/>
+                    <img src={image} alt=""/>
                 </div>
                 <div className={s.serv_text}>
                     <h4>Renting</h4>

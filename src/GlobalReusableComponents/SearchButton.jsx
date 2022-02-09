@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import s from "./style.module.css";
+import icon from "../img/search.png";
 
 
 export const SearchButton = ({ placeholder, submitValue }) => {
@@ -15,6 +16,7 @@ export const SearchButton = ({ placeholder, submitValue }) => {
                         placeholder={placeholder}
                         value={search}
                         onChange={event => setSearch(event.target.value)}
+                        style={{backgroundImage: `url(${icon})`}}
                     />
                 </label>
                 <input

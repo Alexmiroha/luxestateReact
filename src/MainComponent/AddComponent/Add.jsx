@@ -1,15 +1,17 @@
 import React from 'react'
 import s from './Add.module.css'
+import image from '../../img/addroom.jpeg'
+import sprite from '../../img/sprite.svg'
 
 export const Add = () => {
     return (
         <section className={`${s.add} wrapper`} id='SAwA'>
             <div className={s.add_line}>
                 <div className={s.line_img}>
-                    <img src="./src/img/addroom.jpeg" alt=""/>
+                    <img src={image} alt=""/>
                     <div className={`${s.location} ${s.location_melbourn}`}>
                         <svg className={`${s.icon} ${s.location_icon}`} width="21" height="21">
-                            <use href="./src/img/sprite.svg#map-marker-alt-solid"></use>
+                            <use href={`${sprite}#map-marker-alt-solid`}/>
                         </svg>
                         Melbourn, Australia
                     </div>
@@ -33,10 +35,10 @@ export const Add = () => {
                         prospects is like putting socks on an octopus, yet due diligence</p>
                 </div>
                 <div className={s.line_img}>
-                    <img src="./src/img/addroom.jpeg" alt=""/>
+                    <img src={image} alt=""/>
                     <div className={`${s.location} ${s.location_australia}`}>
                         <svg className={`${s.icon} ${s.location_icon}`} width="21" height="21">
-                            <use href="./src/img/sprite.svg#map-marker-alt-solid"></use>
+                            <use href={`${sprite}#map-marker-alt-solid`}/>
                         </svg>
                         Melbourn, Australia
                     </div>
@@ -44,7 +46,7 @@ export const Add = () => {
             </div>
             <div className={s.add_line}>
                 <div className={s.line_img}>
-                    <img src="./src/img/addroom.jpeg" alt=""/>
+                    <img src={image} alt=""/>
                     <div className={s.show_more}>Show Me More</div>
                 </div>
                 <div className={`${s.line_text} ${s.lt3}`}>
