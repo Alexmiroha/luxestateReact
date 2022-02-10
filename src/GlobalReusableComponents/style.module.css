@@ -156,7 +156,6 @@ input[type="text"]::-moz-placeholder {
         border-radius: 4px;
         margin-top: 10px;
         height: 40px;
-        padding-right: 62px;
     }
     .search_button {
         min-width: 0;

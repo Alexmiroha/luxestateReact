@@ -1,6 +1,7 @@
 import React from 'react'
 import s from './Footer.module.css'
 import {SearchButton} from "../GlobalReusableComponents/SearchButton";
+import icon from "../img/search.png";
 
 export const Footer = () => {
     return (

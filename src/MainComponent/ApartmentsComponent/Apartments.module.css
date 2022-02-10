@@ -88,12 +88,17 @@
  .all_ap {
      width: 79vw;
  }
+
+    .apart_wrapper {
+        display: flex;
+        justify-content: center;
+    }
     .cards {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
-        max-height: 520px;
-        overflow-y: auto;
+        max-width: 342px;
+        overflow-x: auto;
     }
 
 }

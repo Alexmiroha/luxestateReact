@@ -7,7 +7,6 @@ export const Header = ({ setModalOpen }) => {
 
     const [menuActive, setMenuActive] = useState(false);
 
-    console.log(menuActive)
     return (
         <header className={s.header} id='header'>
             <nav>
